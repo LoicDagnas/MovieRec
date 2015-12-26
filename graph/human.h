@@ -1,8 +1,10 @@
-#pragma once
+#ifndef HUMAN_H
+#define HUMAN_H
+
 #include <vector>
 using namespace std;
 
-class Human {
+class Human{
     public:
         // The pair (id,category) should be unique 
         int id;
@@ -64,3 +66,4 @@ class UserList {
         // Return the number of unique Users
         int number();
 };
+#endif

@@ -9,7 +9,7 @@ Human::Human(int i_id, string cat, string i_name){
 }
 
 Human::Human(){
-    }
+}
 
 Human::~Human(){}
 
@@ -18,8 +18,7 @@ bool Human::operator==(const Human& other) const
     return (name == other.name);
 }
 
-ostream& operator<<(ostream& os, const Human& h)
-{
+ostream& operator<<(ostream& os, const Human& h){
     os << " Id: " << h.id 
        << "\n Category: "   << h.category
        << "\n Name : "   << h.name

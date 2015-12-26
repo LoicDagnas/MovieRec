@@ -1,4 +1,6 @@
-#pragma once
+#ifndef MOVIE_H
+#define MOVIE_H
+
 #include <vector>
 using namespace std;
 
@@ -71,3 +73,5 @@ class MovieList {
         // Get the number of movies
         int number();
 };
+
+#endif
